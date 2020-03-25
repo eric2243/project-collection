@@ -1,0 +1,1138 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+img,input,a,ul,li{
+	border:none;
+	outline: none;
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+	font-size:12px;
+	color:#37a;
+}
+a:hover{
+	background: #37a;
+	color:#fff;
+}
+li{
+	float:left;
+	list-style:none;
+}
+/*首页顶部*/
+#Header{
+	width:960px;
+	height:89px;
+	margin:0 auto;
+	position:relative;
+}
+#Header .Header-title{
+	float:left;
+	margin-left: -500px;
+}
+#Header .Header-logo{
+	background:url(../images/douban-logo.jpg) no-repeat;
+	display:block;
+	width:159px;
+	height:34px;
+    position:absolute;
+    left:0px;
+    top:30px; 
+}
+#Header .Header-searchbox{
+	display:block;
+	width:272px;
+	height:32px;
+	color:#eddacf;
+	border:1px solid #eddacf;
+	padding-left:5px;
+	position:absolute;
+	left:185px;
+	top:31px;
+}
+#Header .Header-searchicon{
+	position:absolute;
+	left:434px;
+	top:32px;
+    background:url(../images/未标题-3.jpg) no-repeat;
+	width:24px;
+	height:29px;
+	cursor:pointer;
+}
+#Header ul{
+	width:470px;
+	height:24px;
+	position:absolute;
+	top:37px;
+	left:485px;
+
+}
+#Header ul li{
+	float:left;
+	margin-right:18px;
+}
+#Header ul li a{
+	display: block;
+	width:40px;
+	height:24px;
+}
+#Header ul li a.Header-read{
+	background: url(../images/未标题-2.jpg) 0px 0px no-repeat;
+}
+#Header ul li a.Header-movie{
+	background: url(../images/未标题-2.jpg) -60px 0px no-repeat;
+}
+#Header ul li a.Header-music{
+	background: url(../images/未标题-2.jpg) -121px 0px no-repeat;
+}
+#Header ul li a.Header-group{
+	background: url(../images/未标题-2.jpg) -180px 0px no-repeat;
+}
+#Header ul li a.Header-city{
+	background: url(../images/未标题-2.jpg) -240px 0px no-repeat;
+}
+#Header ul li a.Header-fm{
+	background: url(../images/未标题-2.jpg) -301px 0px no-repeat;
+}
+#Header ul li a.Header-time{
+	background: url(../images/未标题-2.jpg) -364px 0px no-repeat;
+}
+#Header ul li a.Header-doupin{
+	background: url(../images/未标题-2.jpg) -424px 0px no-repeat;
+}
+/*首页顶部结束*/
+/*注册部分*/
+#Douban-register{
+	width:100%;
+	height:305px;
+	background:url(../images/zhuce.jpg) no-repeat;
+	background-position: calc(50% - 305px) top;
+	background-size: contain;
+	background-color:#edf4ed;
+	position:relative;
+}
+#Douban-register p.Douban-app{
+	color:#111;
+	font-size:25px;
+	position:absolute;
+	left:725px;
+	top:99px;
+}
+#Douban-register p.Douban-app span.Douban-shuzi{
+	padding-left:12px;
+}
+#Douban-register a.Douban-download{
+	display:block;
+	width:115px;
+	height:30px;
+	background:#00b51d;
+	border-radius:2px;
+	color:#ffffff;
+	font-size:12px;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	top:148px;
+	left:725px;
+	cursor:pointer;
+}
+#Douban-register img.Douban-QRcode{
+	display:block;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	border-radius:2px;
+	position:absolute;
+	top:148px;
+	right:600px;
+}
+#Douban-register .Register-right{
+	width:280px;
+	height:284px;
+	position:absolute;
+	top:11px;
+	right:218px;
+	position:absolute;
+}
+#Douban-register .Register-right a.Register-icon{
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(../images/未标题-5.jpg) no-repeat;
+	cursor:pointer;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#Douban-register .Register-right span.Register-saoma{
+	/*visibility: hidden;*/
+	display:none;
+	/*z-index: 1;*/
+	/*display:block;*/
+	
+	
+}
+#Douban-register .Register-right a.Register-icon:hover span.Register-saoma{
+    /*visibility: visible;*/
+    display:block;
+    /*filter:alpha(opacity=60);*/
+	opacity=1;
+	width:73px;
+	height:28px;
+	background: url(../images/未标题-6.jpg) no-repeat;
+	/*background: #555;*/
+	font-size:13px;
+	color:#808280;
+	position:absolute;
+	top:0px;
+	right:42px;
+}
+#Douban-register .Register-right a.Register-icon:hover span.Register-saoma p.Register-denglu{
+	/*float-right:500px;*/
+	/*display:none;*/
+	position:absolute;
+	right:-500px;
+	top:0px;
+}
+#Douban-register .Register-right ul.Right-biaodan{
+	height:248px;
+	width:280px;
+	position:absolute;
+	top:38px;
+	right:0px;
+}
+#Douban-register .Register-right ul.Right-biaodan li{
+	float:left;
+	/*position:relative;*/
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-duanxin{
+	font-size:13px;
+	color:#333;
+	font-weight:600;
+	padding-left:25px;
+	cursor:pointer;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-mima{
+	font-size:13px;
+	/*font-weight:600;*/
+	color:#9b9b9b;
+	margin-left:68px;
+	cursor:pointer;
+}
+#Douban-register .Register-right ul.Right-biaodan li span.Biaodan-text{
+	font-size:12px;
+	color:#9b9b9b;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-xieyi{
+	font-size:12px;
+	color:#41ac52;
+	cursor:pointer;
+	margin-left:4px;
+	/*clear:right;*/
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-xieyi:hover{
+	background: #edf4ed;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-number{
+    display:block;
+    width:49px;
+    height:21px;
+    font-size:15px;
+    font-weight:700;
+    position:absolute;
+    top:61px;
+    left:0px;
+    /*padding-top:-2px;*/
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-number:hover{
+	background: #ffffff;
+	color: #333333;
+}
+#Douban-register .Register-right ul.Right-biaodan li img.Biaodan-img{
+
+}
+#Douban-register .Register-right ul.Right-biaodan li input.Biaodan-phone{
+	border:1px solid #e4e6e5;
+	display:block;
+	width:228px;
+	height:31px;
+	margin-top:10px;
+    padding-left:49px;
+}
+#Douban-register .Register-right ul.Right-biaodan li input.Biaodan-yanzheng{
+	border:1px solid #e4e6e5;
+	display:block;
+	width:267px;
+	height:31px;
+	margin-top:10px;
+    padding-left:10px;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-idcode{
+	display:block;
+	width:70px;
+	height:14px;
+	color:#41ac52;
+	position:absolute;
+	top:105px;
+	right:10px;
+	font-size:13px;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-idcode:hover{
+	background: #ffffff;
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-login{
+	border:1px solid #e4e6e5;
+	display:block;
+	width:169px;
+	height:31px;
+	margin-top:10px;
+    padding-left:109px;
+    font-size: 15px;
+    font-weight: 400;
+    background: #97d8a1;
+    margin:10 auto;
+    line-height: 31px;
+    font-weight: 400;
+    color:#fff;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-next{
+	margin-top:10px;
+}
+#Douban-register .Register-right ul.Right-biaodan li span.Biaodan-zidong{
+	color:#333;
+	font-size:13px;
+	padding-left:5px;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-jieshou{
+	/*margin-top:12px;*/
+	position:absolute;
+	top:185px;
+	right:0px;
+	/*margin-left:97px;*/
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-jieshou{
+	color:#41ac52;
+	font-size:13px;
+	display:block;
+	width:87px;
+	height:13px
+	
+
+}
+#Douban-register .Register-right ul.Right-biaodan li a.Biaodan-jieshou:hover{
+	background: #edf4ed;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-three{
+	clear:left;
+}
+#Douban-register .Register-right ul.Right-biaodan li img.Biaodan-images{
+	display:block;
+	width:250px;
+	height:1px;
+	margin-top:15px;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-three span.Biaodan-thlogin{
+	color:#9b9b9b;
+	font-size:11px;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-three a.Biaodan-weixin{
+	background: url(../images/未标题-10.jpg) no-repeat;
+	display:block;
+	width:20px;
+	height:20px;
+	float:left;
+	position:absolute;
+	bottom:0px;
+	left:79px;
+}
+#Douban-register .Register-right ul.Right-biaodan li.Biaodan-three a.Biaodan-weibo{
+	background: url(../images/未标题-11.jpg) no-repeat;
+	display:block;
+	width:20px;
+	height:20px;
+	float:left;
+	position:absolute;
+	bottom:0px;
+	left:115px;
+}
+/*注册部分结束*/
+/*热点区域*/
+#Douban-redian{
+    width:952px;
+    height:465px;
+    /*margin-top:38px;*/
+    margin:38px  auto 0 auto;
+    position:relative;
+}
+#Douban-redian .Redian-left{
+	width:362px;
+	height:440px;
+}
+#Douban-redian .Redian-left ul{
+	margin-top:20px;
+}
+#Douban-redian .Redian-left ul li{
+	width:170px;
+	height:200px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:21px;
+
+}
+#Douban-redian .Redian-left ul li p.Redian-number{
+	font-size:12px;
+	color:#999;
+}
+#Douban-redian .Redian-left ul li a.Redian-clean:hover{
+	background: #fff;
+}
+#Douban-redian .Redian-center{
+    width:273px;
+    height:385px;
+    position:absolute;
+    top:35px;
+    left:380px;
+}
+#Douban-redian .Redian-center ul p{
+	margin-top:5px;
+	font:12px Helvetica,Arial,sans-serif;
+	color:#666;
+}
+#Douban-redian .Redian-center ul p span.Center-note{
+	font-size:12px;
+	color:#999;
+	display:block;
+}
+#Douban-redian .Redian-center ul li{
+	margin-top:20px;
+}
+#Douban-redian .Redian-center ul li.Center-first{
+	margin-top:-7px;
+}
+#Douban-redian .Redian-right{
+	width:200px;
+	height:auto;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#Douban-redian .Redian-right ul{
+	float:left;
+	margin-top:10px;
+}
+#Douban-redian .Redian-right ul li a.Right-huati{
+	font-size:14px;
+}
+#Douban-redian .Redian-right ul p.Right-liulan{
+	font-size:12px;
+	color:#999;
+    margin-bottom: 20px;
+
+}
+/*热点区域结束*/
+/*豆瓣时间*/
+#Time{
+	background: #f7f7f7;
+	width:100%;
+	height:617px;
+	margin-top:73px;
+	position:relative;
+}
+#Time .Time-title{
+	position:absolute;
+	top:40px;
+	left:208px;
+	width:97px;
+	height:30px;
+}
+#Time .Time-title a{
+	font-size:24px;
+	color:#494949;	
+}
+#Time .Time-title a:hover{
+    color:#fff;
+}
+#Time .Time-pos{
+    position:absolute;
+    top:46px;
+    left:328px;
+}
+#Time ul.Time-book{
+	width:850px;
+	height:500px;
+	position:absolute;
+	top:74px;
+	left:328px;
+}
+#Time ul.Time-book li.Book-zero{
+	/*width:100px;
+	height:131px;*/
+	float:left;
+	margin-right:65px;
+	margin-bottom: 33px;
+}
+#Time ul.Time-book li a.Book-one{
+	background: url(../images/未标题-17.jpg) no-repeat;
+	display:block;
+	width:100px;
+	height:140px;
+}
+#Time ul.Time-book li a.Book-two{
+	width:100px;
+    display:block;
+    font-size:13px;
+    color:#333333;
+    margin-top:11px;
+}
+#Time ul.Time-book li a.Book-two:hover{
+	color:#fff;
+}
+#Time ul.Time-book li span.Book-three{
+	font:12px Helvetica,Arial,sans-serif;
+	color:#999999;
+	display:block;
+	margin-top:15px;
+	text-align: center;
+}
+/*豆瓣时间结束*/
+/*豆瓣视频*/
+#Douban-video{
+	width:980px;
+	height:460px;
+	margin:37px auto 0 auto;
+}
+/*#Douban-video .Video-center{
+
+}*/
+#Douban-video ul{
+	width:855px;
+	margin:20px 0 0 83px;
+}
+#Douban-video ul li{
+	float:left;
+	margin-right:34px;
+}
+#Douban-video ul li a.Video-img{
+	display:block;
+	width:250px;
+	height:140px;
+	background: url(../images/file-1536139554.jpg) no-repeat;
+	background-size: contain;
+	
+}
+#Douban-video ul li a.Video-text{
+	color:#494949;
+	font-size:14px;
+	display:block;
+	width:250px;
+	margin-top:13px;
+}
+#Douban-video ul li a.Video-text:hover{
+	color:#fff;
+}
+#Douban-video h3 span.Video-guanying{
+	margin:33px 0 0 120px;
+	font:15px Arial, Helvetica, sans-serif;
+	color:#072;
+}
+/*豆瓣视频结束*/
+/*电影区域*/
+/*电影区域左侧*/
+#Douban-bg{
+	background: #f7f7f7;
+    width:100%;
+    height:646px;
+    margin-top:45px;
+    padding-top:35px;
+}
+#Douban-bg .Douban-movie{
+	width:953px;
+	height:548px;
+	margin:0px auto 0px auto;
+	position:relative;
+}
+/*电影区域左侧结束*/
+/*电影区域中间*/
+#Douban-bg .Douban-movie .Movie-center{
+	width:540px;
+	height:auto;
+	position:absolute;
+	top:0px;
+	left:120px;
+}
+#Douban-bg .Douban-movie .Movie-center ul.Center-video{
+	margin-top:17px;
+}
+#Douban-bg .Douban-movie .Movie-center ul li a.haibao:hover{
+	background: #f7f7f7;
+}
+#Douban-bg .Douban-movie .Movie-center ul li.Center-first{
+	width:101px;
+	height:224px;
+	float:left;
+	margin:0px 0px 40px 33px;
+}
+#Douban-bg .Douban-movie .Movie-center ul li a.Center-name{
+	display:block;
+	font-size:13px;
+	color:#333;
+	height:17px;
+	width:62px;
+	margin:10px auto 0px auto;
+}
+#Douban-bg .Douban-movie .Movie-center ul li a.Center-name:hover{
+	background: #37a;
+	color:#fff;
+}
+#Douban-bg .Douban-movie .Movie-center ul li span.Center-pingfen{
+	background: url(../images/未标题-19.jpg) 0px  0px no-repeat;
+	display:block;
+	width:13px;
+	height:17px;
+	color:#e09015;
+	font-size:12px;
+	padding-left:65px;
+	line-height: 17px;
+	margin-top:5px;
+	text-align:left;
+}
+#Douban-bg .Douban-movie .Movie-center ul li a.Center-buy{
+	display:block;
+	width:70px;
+	height:25px;
+	background: #1c8bd0;
+	color:#fff;
+	margin:10px 0 0 14px;
+	text-align:center;
+	line-height: 25px;
+	border-radius: 2px;
+}
+/*电影区域中间结束*/
+/*电影区域右侧*/
+#Douban-bg .Douban-movie .Movie-right{
+	width:230px;
+	height:528px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-fenlei{
+	width:227px;
+	height:165px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-fenlei ul.Right-ul{
+	width:204px;
+	height:130px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-fenlei li.Right-love{
+	float:left;
+	padding-right:26px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-hot{
+	width:227px;
+	height:330px;
+	position:absolute;
+	top:198px;
+	right:0px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-hot ol{
+	margin-top:20px;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-hot ol li.Right-border{
+	border-bottom:1px solid #eaeaea;
+	margin-bottom:20px;
+	padding-bottom: 5px;
+	clear:both;
+}
+#Douban-bg .Douban-movie .Movie-right .Right-hot ol li span.Right-number{
+	font-size:12px;
+}
+/*电影区域右侧结束*/
+/*电影区域结束*/
+/*小组区域*/
+#Douban-group{
+	width:953px;
+	height:548px;
+	margin:40px auto 0 auto;
+	position:relative;
+}
+#Douban-group .Group-center{
+	width:513px;
+	height:530px;
+	position:absolute;
+    top:0px;
+    left:120px;
+}
+#Douban-group .Group-center ul.groupUl{
+	width:511px;
+	height:498px;
+	margin-top:18px;
+}
+#Douban-group .Group-center ul li.centerGroupList{
+	width:246px;
+	height:58px;
+	float:left;
+	margin-bottom:40px;
+	/*margin-top:18px;*/
+	position:relative;
+	/*top:34px;*/
+	/*left:0px;*/
+}
+#Douban-group .Group-center ul li.centerGroupList a img.groupCenterImg{
+	display:block;
+	width:48px;
+	height:48px;
+	float:left;
+}
+#Douban-group .Group-center ul li.centerGroupList a.centerLink{
+	margin-left:15px;
+	display:block;
+	width:182px;
+	height:31px;
+	position:absolute;
+	top:0px;
+	left:53px;
+}
+#Douban-group .Group-center ul li.centerGroupList p{
+	position:absolute;
+	top:41px;
+	left:63px;
+	font-size:12px;
+	color:#999;
+}
+/*小组区域中间结束*/
+/*小组区域右边*/
+#Douban-group .groupRight{
+	width:267px;
+	height:520px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#Douban-group .groupRight ul.rightList{
+	width:267px;
+	height:484px;
+	margin-top:20px;
+}
+#Douban-group .groupRight ul.rightList li.rightLi{
+	margin-bottom:20px;
+}									
+#Douban-group .groupRight ul.rightList li p a.listHobby{
+	font-size:14px;
+	color:#669;
+}
+#Douban-group .groupRight ul.rightList li p a.listHobby:hover{
+	color:#fff;
+}
+/*小组区域右边结束*/
+/*小组区域结束*/
+
+/*读书区域*/
+#doubanReadBackgroud{
+	width:100%;
+	height:640px;
+	margin-top:60px;
+	padding-top:43px;
+	background: #f7f7f7;
+}
+#doubanReadBackgroud .doubanRead{
+	width:953px;
+	height:550px;
+	margin:0 auto;
+	position:relative;
+}
+/*读书区域左边*/
+#doubanReadBackgroud .doubanRead .Menu-zuo a.readImg{
+	display:block;
+	width:50px;
+	height:50px;
+	background: url(../images/app_icons_50_10.jpg) 0px 0px no-repeat;
+	margin-top:194px;
+	box-shadow: 1px 1px 2px #999;
+	border-radius: 10px;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo a.readReading{
+	color:#614e3c;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo a.readReading:hover{
+	color:#fff;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo h2 a.Left-read{
+	font-size:24px;
+	color:#614e3c;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo h2 a.Left-read:hover{
+	color:#fff;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo ul.Left-ul li.Left-li a.Menu-read{
+	font-size:14px;
+	color:#614e3c;
+}
+#doubanReadBackgroud .doubanRead .Menu-zuo ul.Left-ul li.Left-li a.Menu-read:hover{
+	color: #fff;
+}
+/*读书区域左边结束*/
+/*读书区域中间*/
+#doubanReadBackgroud .doubanRead .readCenter{
+	width:515px;
+	height:545px;
+	position:absolute;
+	top:0px;
+	left: 117px;
+}
+#doubanReadBackgroud .doubanRead .readCenter .readCenterFirst{
+	width: 502px;
+	height: 255px;
+}
+#doubanReadBackgroud .doubanRead .readCenter .readCenterSecond{
+    width: 502px;
+    height: 255px;
+    margin-top: 22px;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl{
+	width: 515px;
+	height: 514px;
+	margin-top: 15px;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi{
+	width: 104px;
+	height: 225px;
+	margin-right: 20px;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi a.centerPlaybill{
+	background: url(../images/未标题-17.jpg) no-repeat;
+	display:block;
+	width: 100px;
+	height: 142px;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi a.centerName{
+	display: block;
+	width: 102px;
+	height: 15px;
+	color: #614e3c;
+	font-size: 13px;
+	text-align: center;
+	margin: 15px auto 0 auto;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi p.centerAuthor{
+	font-size: 12px;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi a.centerFreeReading{
+	display: block;
+	width: 68px;
+	height:23px;
+	background: #999a95;
+	color:#fff;
+	margin: 5px auto 0 auto;
+}
+#doubanReadBackgroud .doubanRead .readCenter ul.centerReadUl li.centerReadLi a.centerFreeReading:hover{
+	background: #669;
+}
+#doubanReadBackgroud .doubanRead .readCenter .readTitleH3{
+    width:230px;
+	height:15px;
+	position: absolute;
+	top: 285px;
+	left: 0px;
+}
+/*读书区域中间结束*/
+/*读书区域右边*/
+#doubanReadBackgroud .doubanRead .readRight{
+	width: 255px;
+	height: 370px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#doubanReadBackgroud .doubanRead .readRight ul.rightReadUl{
+	width: 255px;
+	height: 335px;
+	margin-top: 15px;
+}
+#doubanReadBackgroud .doubanRead .readRight ul.rightReadUl li.rightReadLi{
+	width: 260px;
+	height: 35px;
+	border-top: 1px solid #eaeaea;
+	margin-bottom: 15px;
+}
+#doubanReadBackgroud .doubanRead .readRight ul.rightReadUl li.rightReadLi span.rightLetter{
+	font-size: 12px;
+	color: #999;
+}
+/*读书区域右边结束*/
+/*读书区域结束*/
+
+/*音乐区域*/
+#doubanMusic{
+	width: 950px;
+	height: 780px;
+	margin: 35px auto 0 auto;
+	position:relative;
+}
+/*音乐区域左侧*/
+#doubanMusic .menuMusicLeft{
+	width: 100px;
+	height: 480px;
+
+}
+#doubanMusic .menuMusicLeft h2{
+	width: 48px;
+	height: 25px;
+}
+#doubanMusic .menuMusicLeft h2 a.Left-menu{
+	font-size: 24px;
+	color: #f38c00;
+	/*width: 48px;*/
+	/*height: 25px;*/
+}
+#doubanMusic .menuMusicLeft h2 a.Left-menu:hover{
+	color:#fff;
+}
+#doubanMusic .menuMusicLeft ul.Left-ul{
+	margin-top: 20px;
+	width: 98px;
+	height: 257px;
+}
+#doubanMusic .menuMusicLeft ul.Left-ul li.Left-li{
+	margin-bottom: 15px;
+	clear: both;
+}
+#doubanMusic .menuMusicLeft ul.Left-ul li.Left-li a.Menu-buy{
+    color: #555d53;
+}
+#doubanMusic .menuMusicLeft ul.Left-ul li.Left-li a.Menu-buy:hover{
+	color:#fff;
+}
+#doubanMusic .menuMusicLeft a.musicDoubanFM{
+	display:block;
+	width:50px;
+	height:50px;
+	background: url(../images/app_icons_50_10.jpg) -250px 0px no-repeat;
+	/*margin-top:194px;*/
+	box-shadow: 1px 1px 2px #999;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+#doubanMusic .menuMusicLeft a.musicFM{
+	color: #555d53;
+}
+#doubanMusic .menuMusicLeft a.musicFM:hover{
+	color:#fff;
+}
+#doubanMusic .menuMusicLeft a.doubanMusicen{
+    display:block;
+	width:50px;
+	height:50px;
+	background: url(../images/app_icons_50_10.jpg) -50px 0px no-repeat;
+	/*margin-top:194px;*/
+	box-shadow: 1px 1px 2px #999;
+	border-radius: 10px;
+	margin-top: 20px;	
+}
+#doubanMusic .menuMusicLeft a.musicen{
+    color: #555d53;	
+}
+#doubanMusic .menuMusicLeft a.musicen:hover{
+	color: #fff;
+}
+/*音乐区域左侧结束*/
+/*音乐区域中间*/
+#doubanMusic .musicCenter{
+	width: 580px;
+	height: 775px;
+	position:absolute;
+	top: 0px;
+	left: 117px;
+}
+#doubanMusic .musicCenter .musicCenterFirst{
+	width: 580px;
+	height: 425px;
+}
+#doubanMusic .musicCenter .musicCenterSecond{
+	width: 580px;
+	height: 215px;
+}
+#doubanMusic .musicCenter ul.musicCenterUl{
+	width: 580px;
+	height: 780px;
+	margin-top: 17px;
+}
+#doubanMusic .musicCenter ul.musicCenterUl li.musicCenterLi{
+	width: 125px;
+	height: 165px;
+	margin: 0 18px 10px 0;
+}
+#doubanMusic .musicCenter ul.musicCenterUl li.musicCenterLi a.musicCenterImg{
+	display:block;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	background: url(../images/s32286761.jpg) no-repeat;
+}
+#doubanMusic .musicCenter ul.musicCenterUl li.musicCenterLi p.musicCenterText{
+	font-size: 13px;
+	text-align: center;
+	margin-top: 10px;
+}
+/*音乐区域中间结束*/
+/*音乐区域右边*/
+#doubanMusic .musicRight{
+	width: 202px;
+	height: 402px;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+}
+#doubanMusic .musicRight ul.musicRightUl{
+	width: 208px;
+	height: 365px;
+	margin-top: 18px;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi{
+	width: 190px;
+	height: 55px;
+	margin-bottom: 19px;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi span.musicRightList{
+	font: 12px Helvetica,Arial,sans-serif;
+	/*display:block;*/
+	float:left;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi a.musicRightImg{
+	display:block;
+	width: 50px;
+	height: 50px;
+	background: url(../images/未标题-22.jpg) no-repeat;
+	float:left;
+	margin-left: 10px;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi a.musicRightName{
+	color: #555d53;
+	display:block;
+	margin-left: 12px;
+	float:left;
+
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi a.musicRightName:hover{
+	color: #fff;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi p.musicRightFamily{
+	color: #999;
+	margin: 5px 0 0 12px;
+	font-size: 12px;
+	width: 100px;
+	height: 12px;
+	float: left;
+}
+#doubanMusic .musicRight ul.musicRightUl li.musicRightLi span.musicRightFollowing{
+	display: block;
+	color: #999;
+	margin: 3px 0 0 12px;
+	font-size: 12px;
+	float: left;
+}
+/*音乐区域右边结束*/
+/*音乐区域结束*/
+
+/*公共样式结束*/
+.Redian{
+	width:230px;
+	height:15px;
+}
+h3.Redian-title{
+    font:15px Arial, Helvetica, sans-serif;
+    color:#072;
+    width:130px;
+    height:17px;
+    float:left;
+}
+span.Title-bracket{
+	color:#37a;
+	font-size:10px;
+	float:left;
+}
+h3.Redian-title span.banzui{
+    margin-left:70px;
+}
+h2 a{
+    color:#494949;
+    font-size:25px;
+    font-weight:lighter;
+    float:left;
+}
+
+/*公共样式*/
+.titleH3{
+	height:18px;
+	width:450px;
+}
+h3.Center-title{
+	font:15px Arial, Helvetica, sans-serif;
+	color:#072;
+	float:left;
+}
+span.Center-kuohao{
+	font:12px Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+.Menu-zuo{
+	width:70px;
+	height:548px;
+}
+.Menu-zuo h2{
+	width:70px;
+	height:23px;
+}
+.Menu-zuo h2 a.Left-menu{
+	font-size:24px;
+	color:#2277b1;
+}
+.Menu-zuo h2 a.Left-menu:hover{
+	color:#fff;
+}
+.Menu-zuo ul.Left-ul{
+	margin-top:20px;
+}
+.Menu-zuo ul.Left-ul li.Left-li{
+	margin-top:10px;
+	width:70px;
+}
+.Menu-zuo ul li a.Menu-buy{
+	font-size:14px;
+}
+#pop-ups {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+.pop {
+	display: none;
+}
+.pop1 {
+	display: block;
+}
+#pop-ups a.demo1 {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+a.demo2 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}	

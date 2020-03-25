@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#AD {
+  width: 0px;
+  height: 40px;
+  background: url(../images/未标题-1.jpg) 0px 0px no-repeat;
+  float: left; }
+
+#buffer {
+  height: 40px;
+  width: 30px;
+  background: url(../images/未标题-1.jpg) -175px 0px no-repeat;
+  float: left;
+  display: none; }
+
+#bufferIcon {
+  width: 40px;
+  height: 40px;
+  background: url(../images/未标题-1.jpg) -205px 0px no-repeat;
+  float: left; }
+
+/*# sourceMappingURL=buffer.css.map */

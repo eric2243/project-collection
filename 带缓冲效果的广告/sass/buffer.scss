@@ -1,0 +1,20 @@
+@import "variable";
+#AD {
+	width: $AD-width;
+	height: $AD-height;
+	background: $AD-background;
+	float: $AD-float;
+}
+#buffer {
+	height: $buffer-height;
+	width: $buffer-width;
+	background: $buffer-background;
+	float: $buffer-float;
+	display: $buffer-display;
+}
+#bufferIcon {
+	width: $bufferIcon-width;
+	height: $bufferIcon-height;
+	background: $bufferIcon-background;
+	float: $bufferIcon-float;
+}
